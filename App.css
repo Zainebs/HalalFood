@@ -1,0 +1,84 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: black;
+  background-color: rgb(249, 214, 244);
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+
+.Awning-image {
+  width: 150%; /* Adjust the width percentage as needed */
+  max-width: 100%; /* Ensure the image doesn't exceed its original width */
+  height: auto;
+  align-self: flex-start; 
+}
+
+
+.Food {
+  font-size: 72px; /* Set the font size (adjust as needed) */
+  color: rgb(248, 241, 241); /* Set the text color to pink */
+  letter-spacing: 3px; /* Adjust letter spacing as needed */
+  font-family: Arial, sans-serif; 
+  text-shadow: -1px -1px 0 rgb(72, 71, 71), 1px -1px 0 rgb(61, 59, 59), -1px 1px 0 grey, 1px 1px 0 grey; /* Add a grey border around each letter */
+}
+
+/* Style for the event card container */
+.event-card-container {
+  display: inline-block;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 250px; /* Set the desired width for the event card container */
+  min-height: 300px;
+  background-color: #fffefe;
+}
+
+
+/* Style for the event card image section */
+.event-card-image {
+  flex: 1; /* Take up available space (vertical) */
+  overflow: hidden; /* Hide overflowing content */
+  display: flex; /* Use flexbox to center the image vertically */
+  align-items: center; /* Center-align the image vertically */
+  justify-content: center; /* Center-align the image horizontally */
+}
+
+/* Style for the event card image */
+.event-card-image img {
+  max-width: 80%; /* Set a maximum width to make images smaller (adjust as needed) */
+  max-height: 80%; /* Set a maximum height to make images smaller (adjust as needed) */
+}
+
+
+/* Style for the event card details section */
+.event-card-details {
+  padding-top: 10px; /* Add spacing between the image and details */
+  text-align: center; /* Center-align the details */
+}
+/* Style for the website button */
+.website-button {
+  background-color: #f700ff; /* Set the button background color */
+  color: white; /* Set the text color */
+  padding: 10px 20px; /* Add padding for spacing */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+@media screen and (min-width: 768px) {
+  .event-card-container {
+    width: calc(25% - 20px); /* 25% width for 4 cards in a row */
+  }
+}
