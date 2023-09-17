@@ -55,7 +55,7 @@ const Events = [
         "description": "American",
         "location": "Rosedale",
         "img": "/nout.jpeg",
-        "website": "https://halalbrosgrill.biz/"
+        "website": "https://www.halalnoutroc.com//"
       },
       {
         "name": "Lazzat",
