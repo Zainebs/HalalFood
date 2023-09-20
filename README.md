@@ -15,7 +15,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-[Gif](https://www.example.com)
+[Gif](https://imgur.com/KY0i8Vm)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Kap 
